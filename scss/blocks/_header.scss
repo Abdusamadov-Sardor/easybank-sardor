@@ -1,0 +1,61 @@
+.site-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  
+    
+  
+}
+
+.site-head__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.site-head__item{
+  padding: 15px;
+}
+
+
+
+.site-head__href{
+  background-image: url(../images/bc-img-link.png);
+  background-repeat: no-repeat;
+  background-position: calc(10% );
+  padding: 14px 35px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  transition: all 2s ease;
+  color: #FFFFFF;
+  
+  &:hover{
+    opacity: 0.4;
+  }
+}
+
+
+
+.site-head__sublink{
+  font-family: Public Sans;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.107692px;
+  padding-bottom: 34px;
+  color: #9597A5;
+  transition:2s ;
+  
+  &:hover{
+    color: #2D314D;
+    background-image: url(../images/border-bottom.png);
+    background-repeat: no-repeat;
+    background-position-y: calc(50% + 21px);
+  }
+  
+}
+

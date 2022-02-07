@@ -1,0 +1,106 @@
+.bottom{
+  display: flex;
+  align-items: center;
+  background-color:  #2D314D;
+  padding: 48px;
+}
+
+.bottom__link{
+  color: #FFFFFF;
+}
+
+.bottom__link:hover{
+  
+  color:#30C88F ;
+}
+
+.bottom-first{
+  width: 154px;
+  margin-right: 131px;
+}
+
+
+.bottom__logo{
+  display: flex;
+  align-items: center;
+  margin-bottom: 57px;
+  color:#FFFFFF;
+}
+.bottom__title{
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+
+ 
+}
+
+.bottom__subitem{
+  width: 160px;
+}
+
+.bottom__item ~ .bottom__item{
+  margin-left: 13px;
+}
+
+
+
+.bottom__list{
+  display: flex;
+}
+
+.bottom__second{
+  width: 160px;
+
+}
+
+.bottom__three{
+  margin-right: 136px;
+}
+
+.bottom__subitem ~ .intro__subitem{
+ padding: 8px 0;
+}
+
+.bottom__sublink{
+  font-family: Public Sans;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+
+  &:hover{
+   color: #30C88F
+  }
+}
+
+.bottom__four{
+ display: flex;
+ flex-direction: column; 
+}
+
+
+.site-head__href--bottom{
+  background-image: url(../images/bc-img-link.png);
+  background-repeat: no-repeat;
+  background-position: calc(10% );
+  padding: 14px 35px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  transition: 2s ease;
+  color: #FFFFFF;
+  opacity: 0.6;
+  &:hover{
+   opacity: 1;
+  }
+  margin-left: 78px;
+  margin-bottom: 24px;
+}
+
+.bottom__span{
+  color: #FFFFFF;
+  opacity: 0.5;
+  
+}

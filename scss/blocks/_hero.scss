@@ -1,0 +1,43 @@
+.small-container{
+
+  position: relative;
+background-color: $bc-color;
+background-image:url(../images/hero-phones-desktop.png),  url(../images/bc-img-0.jpg) ;
+  background-repeat: no-repeat;
+  background-position-x:  calc(-7% + 447px);
+  background-position-y: calc(-5% - 91px) ;
+ 
+}
+
+
+
+.hero{
+  
+ padding: 170px 0;
+}
+
+  .hero__left{
+  width: 447px;
+ 
+  
+}
+
+.hero__title{
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2D314D;
+  
+}
+
+.hero__text{
+  font-family: Public Sans;
+  font-size: 18px;
+  line-height: 28px;
+   letter-spacing: -0.28125px;
+  color: #9597A5;
+  margin-bottom: 36px;
+}
